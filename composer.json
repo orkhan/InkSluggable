@@ -1,0 +1,24 @@
+{
+    "name": "ink/ink-sluggable",
+    "description": "Easy creation of slugs for Eloquent and EloquentTranslatable models in Laravel 4.",
+    "keywords": ["laravel","eloquent", "ink", "sluggable", "translatable"],
+    "homepage": "https://github.com/orkhan/InkSluggable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Orkhan",
+            "email": "o@inkster.az"
+        }
+    ],
+    "require": {
+    	"php": ">=5.3.0",
+		"illuminate/support": "4.0.x",
+		"illuminate/config": "4.0.x"
+    },
+    "autoload": {
+        "psr-0": {
+            "Ink\\InkSluggable": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
