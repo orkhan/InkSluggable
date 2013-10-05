@@ -1,4 +1,4 @@
-# Eloquent-Sluggable
+# InkSluggable (Eloquent-Sluggable)
 
 Easy creation of slugs for Eloquent and EloquentTranslatable models in Laravel 4.
 
@@ -184,6 +184,6 @@ Please use Github for bugs, comments, suggestions.  Pull requests are preferred!
 
 ## Copyright and License
 
-Eloquent-Sluggable was written by Colin Viebrock and released under the MIT License. See the LICENSE file for details.
+Eloquent-Sluggable was written by Colin Viebrock (Modified by Orkhan Maharramli) and released under the MIT License. See the LICENSE file for details.
 
 Copyright 2013 Colin Viebrock
