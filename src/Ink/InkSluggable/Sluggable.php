@@ -30,6 +30,8 @@ class Sluggable {
 		// nicer variables for readability
 		$buildFrom = $saveTo = $method = $unique = $onUpdate = null;
 		extract( $model::$sluggable, EXTR_IF_EXISTS );
+		
+		
 
 		// skip slug generation if the model exists or the slug field is already populated,
 		// and on_update is false ... unless we are forcing things!

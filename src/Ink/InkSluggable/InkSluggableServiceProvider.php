@@ -54,7 +54,7 @@ class InkSluggableServiceProvider extends ServiceProvider {
     {
         $app = $this->app;
 
-        $app['events']->listen('eloquent.saved*', function($model) use ($app)
+        $app['events']->listen('eloquent.saving*', function($model) use ($app)
         {
             $app['sluggable']->build($model);
         });
