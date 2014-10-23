@@ -107,7 +107,7 @@ class Sluggable {
 				$idx = intval($idx);
 				$idx++;
 
-				$slug .= $separator . $idx;
+				$slug .= self::$separator . $idx;
 			}
 		}
 
